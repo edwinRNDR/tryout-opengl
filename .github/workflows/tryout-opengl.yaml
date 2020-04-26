@@ -9,4 +9,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: edwinRNDR/setup-opengl@v7
+      - uses: edwinRNDR/setup-opengl@v8
