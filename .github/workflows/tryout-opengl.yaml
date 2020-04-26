@@ -12,4 +12,5 @@ jobs:
       - uses: edwinRNDR/setup-opengl@v9
       - name: Test glxinfo
         run: |
+          echo $LD_LIBRARY_PATH
           xvfb-run glxinfo
