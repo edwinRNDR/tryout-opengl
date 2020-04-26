@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: edwinRNDR/setup-opengl@v9
+      - uses: edwinRNDR/setup-opengl@v11
       - name: Test glxinfo
         run: |
           echo $LD_LIBRARY_PATH
