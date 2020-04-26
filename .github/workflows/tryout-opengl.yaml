@@ -13,4 +13,5 @@ jobs:
       - name: Test glxinfo
         run: |
           echo $LD_LIBRARY_PATH
+          export GALLIUM_DRIVER=swr
           xvfb-run glxinfo
