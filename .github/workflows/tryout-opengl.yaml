@@ -12,6 +12,7 @@ jobs:
       - uses: edwinRNDR/setup-opengl@v11
       - name: Test glxinfo
         run: |
+          echo "testing 123"
           echo $LD_LIBRARY_PATH
           export GALLIUM_DRIVER=swr
           xvfb-run glxinfo
