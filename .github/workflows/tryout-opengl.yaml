@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: edwinRNDR/setup-opengl@v11
+      - uses: edwinRNDR/setup-opengl@v1.1
       - name: Test glxinfo
         run: |
           echo "testing 123"
